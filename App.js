@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, StyleSheet, Text, Alert, View } from "react-native";
 import ViewImageScreen from "./app/screens/ViewImageScreen";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
@@ -11,37 +11,12 @@ import ListItems from "./app/components/ListItems";
 import AccountScreen from "./app/screens/AccountScreen";
 import AppTextInput from "./app/components/AppTextInput";
 import AppPicker from "./app/components/AppPicker";
+import LoginScreen from "./app/screens/LoginScreen";
+import ListingEditScreen from "./app/screens/ListingEditScreen";
 
 export default function App() {
   return (
-    <Screen>
-      <AppPicker icon="apps" placeholder="Category" />
-      <AppTextInput icon="email" placeholder="UserName" />
-    </Screen>
-    // <AccountScreen />
-    // <Screen>
-    //   <ListItems title="My Title" ImageComponent={<Icon name="email" />} />
-    // </Screen>
-    // <WelcomeScreen />
-    // <ViewImageScreen />
-    // <MessageScreen />
-    // <View style={styles.container}>
-    //   <Card title="Red jacket for sale" subTitle="$100" image={require("./app/assets/jacket.jpg")} />
-    // </View>
-    // <View>
-    //   <ListingDetailsScreen />
-    // </View>
+    // <MessageScreen />;
+    <ListingEditScreen />
   );
 }
-
-const styles = StyleSheet.create({
-  // container: {
-  //   // flex: 1,
-  //   // // backgroundColor: "blue",
-  //   // alignItems: "center",
-  //   // justifyContent: "center",
-  //   backgroundColor: "#f8f4f4",
-  //   padding: 20,
-  //   paddingTop: 100,
-  // },
-});

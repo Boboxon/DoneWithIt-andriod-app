@@ -7,7 +7,7 @@ export default function AppTextInput({ icon, ...otherProps }) {
   return (
     <View style={styles.container}>
       {icon && <MaterialCommunityIcons name={icon} color={colors.medium} size={20} style={styles.icon} />}
-      <TextInput style={styles.textInput} {...otherProps} />
+      <TextInput placeholderTextColor={colors.medium} style={styles.textInput} {...otherProps} />
     </View>
   );
 }

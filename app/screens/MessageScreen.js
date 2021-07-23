@@ -6,7 +6,13 @@ import ListItemSeparator from "../components/ListItemSeparator";
 import Screen from "../components/Screen";
 
 const intialMessage = [
-  { id: 1, title: "title1", description: "description", image: require("../assets/bobokhon.jpg") },
+  {
+    id: 1,
+    title: "title1",
+    description:
+      "welcome to the  about donewithit porject,welcome to the  about donewithit porject,welcome to the  about donewithit porject",
+    image: require("../assets/bobokhon.jpg"),
+  },
   { id: 2, title: "title2", description: "description2", image: require("../assets/bobokhon.jpg") },
 ];
 
