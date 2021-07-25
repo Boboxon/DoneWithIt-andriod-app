@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   },
   text: {
     flex: 1,
-    fontSize: 15,   
+    fontSize: 15,
   },
   placeholder: {
     color: colors.medium,

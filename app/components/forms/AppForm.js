@@ -10,4 +10,3 @@ export default function AppForm({ initialValues, onSubmit, validationSchema, chi
   );
 }
 
-const styles = StyleSheet.create({});
